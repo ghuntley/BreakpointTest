@@ -8,11 +8,11 @@ namespace BreakpointTest
         static void Main(string[] args)
         {
 
-            x = "hello";
+            x = string.Empty;
 
-            x = "world";
+            x = "Gitpod";
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello {0}!", x);
         }
     }
 }
