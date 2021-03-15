@@ -1,7 +1,7 @@
 image: gitpod/workspace-dotnet
 
 tasks:
-  - init: dotnet restore src/UnitTest.sln
+  - init: dotnet restore
 
 vscode:
   extensions:
