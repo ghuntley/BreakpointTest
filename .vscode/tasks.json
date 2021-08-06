@@ -7,6 +7,7 @@
             "type": "process",
             "args": [
                 "build",
+                "-bl:debug.binlog",
                 "${workspaceFolder}/BreakpointTest.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
